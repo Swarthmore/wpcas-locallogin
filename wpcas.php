@@ -165,7 +165,7 @@ class wpCAS {
 	    unset($query['localauth']);
 	    $query['wpcasauth'] = 1;
 	    $casloginurl = wp_login_url() . '?' . http_build_query($query);
-	    print '<div style="position: relative; bottom: 48px; left: 70px; margin: 0 auto 0 auto; width: 155px;text-align: right;"><a href="' . $casloginurl . '">Log in using Swarthmore ID</a></div>';
+	    print '<div style="position: relative; bottom: 48px; left: 70px; margin: 0 auto 0 auto; width: 155px;text-align: right;"><a href="' . $casloginurl . '">Log in using CAS ID</a></div>';
 	  }
 	}
 
