@@ -13,7 +13,7 @@ $wpcas_options = array(
 	'include_path' => '/absolute/path/to/CAS.php',
 	'server_hostname' => 'server.university.edu',
 	'server_port' => '443',
-	'server_path' => '/url-path/'
+	'server_path' => '/url-path/',
 	'allow_local_login' => TRUE
 	);
 
