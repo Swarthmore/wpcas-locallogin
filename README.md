@@ -15,3 +15,6 @@ From Casey Bisson's original installation instructions:
 2. Place the plugin folder in your wp-content/plugins/ directory and activate it.
 3. Set any options you want in Settings -> wpCAS or in the wpcas-conf.php file.
 4. The plugin starts intercepting authentication attempts as soon as you activate it. Use another browser or another computer to test the configuration.
+
+Authenticating Locally
+* To authenticate locally with the plugin enabled, access http://your-wordpress-site.com/wp-login.php?localauth=1 
